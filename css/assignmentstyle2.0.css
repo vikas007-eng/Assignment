@@ -1,0 +1,63 @@
+body{
+		margin:10px;
+		padding:5px;
+	}
+
+header{
+	text-align:center;
+	background-image:url('../image/flywheel.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	padding:15px;
+	
+       }
+h1{
+	
+	color:#d6d6d6;
+	font-size:300%;
+}
+
+nav{
+	 font-variant: small-caps;
+                font-size:  150%;
+        font-family:Arial,"Times New Roman",serif;
+        
+}
+
+nav a{
+	     display:inline-block;
+	     color:#000000;
+	     width:20%;
+	     padding:14px;
+	     margin:0 auto;	     
+	     text-decoration: none;
+	  }
+
+a:hover{ /* jb mouse link k uor jata h to clr change hota h*/
+	     background:#ffffff;/*white*/
+        }
+
+a:focus{
+          background:#ffffff;
+          color:#0006cc;
+
+         }
+
+a:active{/*when you click it make border around link just like button*/
+	        border:3px ridge #000000;
+
+         }
+
+ section{
+         background:#A52A2A;
+ 	    width:40%px;
+ 	   
+    }
+ img{
+     border:3px solid #000000;
+ 	padding-top: 13px;
+ 	padding-left: 8px;
+ 	width:200px;
+ 	height:150px;
+
+ }

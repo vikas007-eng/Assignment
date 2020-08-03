@@ -1,0 +1,14 @@
+div{
+	display:inline-block;/*1 hi line m set honge*/
+    width:45%;
+}
+ol{
+	list-style-type:upper-roman;/*roman nmbr se start hoga na ki simple 1,2.. */
+}
+ul{
+	list-style-type:square;/* dot k jgh square sign*/
+}
+
+ul,ol{
+	list-style-image: url('../image/star logo.png');/*it will overwrite and it will start with image instead of 1,2 or bindu*/
+}

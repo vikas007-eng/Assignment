@@ -1,0 +1,28 @@
+header{
+              background-color:#808080;
+}
+
+h1,h2{
+            color:#800000;
+            font-varient:small-caps;
+}
+
+h1{
+       text-align:center;
+}
+
+section{
+              background-color:#808000;
+}
+
+header>nav{    
+                      background-color:#c0c0c0;
+                       color:#800080;          
+}
+
+a{
+       text-align:center;
+}
+img{
+          display:none;
+}

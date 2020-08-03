@@ -1,0 +1,68 @@
+body{
+         background:#B3B3B3;/*grey*/
+         margin:2%;/*corner se 2% dur*/
+         font-size:150%;
+    }
+
+   footer, header{/*it will make bg clr more effectice irrespactive in which browser it is working*/
+                    background: #666666;
+  background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+  background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+  background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+  background: linear-gradient(#666666 0%, #00b7ea 100%); 
+
+                }
+
+header{
+               
+                 text-align:center; 
+                 padding-bottom:15px;/* link ko header bottom se 15px upr bhejna*/
+      }
+
+h1{
+       color:#ffffff;/*h1 white color*/
+       
+}
+
+nav{
+        font-variant: small-caps;
+                font-size:  150%;
+        font-family:Arial,"Times New Roman",serif;
+}
+
+nav a{
+         display:inline-block;/*3no link ek hi line m*/
+         background:#ffffff;/*bg color white*/
+         width:22%;
+
+}
+
+h2{
+  color: #666666;/*silver color*/
+  background: #00b7ea;/*h2 ka block asmani clr*/
+  }          
+
+
+section{
+         width:30%;/*width small kiye taki ek bd ek set kre(remember total width 100 se kam rhe)*/
+         margin-right: 2%;/*ek line m honge to sb chipke honge usko door krne k liye*/
+         display: inline-block;/*block element ko 1 hi line m set krne k liye*/
+         float: left;/*baju m hone k bavjud upr niche writting part hote h usko dur krne k liye*/
+       }
+  
+  summary{
+                   font-style:normal;
+         }
+             
+details{
+             font-style:italic;
+       }
+
+footer{
+          
+           clear: both;/*float kisi bhi side hone nai deta unlike section m jo kiye*/
+      }
+
+img{
+   width:125px;
+   }

@@ -1,0 +1,14 @@
+nav a{ /*all the links inside nav should apply this functions*/
+	text-align:center;
+	color:#ffffff;
+	background:#0000ff;
+	display:inline-block;
+	width:20%;
+	margin-right:2%;
+}
+
+.current{/*perticulr target the current class's link and will aply following functions*/
+	      color:#000000;/*black*/
+	      background:#0fff00;/*green*/
+	      text-transform: uppercase;/*sb capital letter*/
+}

@@ -1,0 +1,25 @@
+a{
+	display:block;/*block jsa 1 k upr 1 position le */
+	font-weight:bold;
+	color:#ffffff;/* font clr white*/
+	background:#0006cc;
+	width:200px;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	margin:0 auto;/*3no link 1 k upr 1 bina space k*/
+	margin-top: 10px;
+}
+
+a:hover{ /* jb mouse link k uor jata h to clr change hota h*/
+	background:#b3b3b3;/*grey*/
+	color:#0006cc;/*blue*/
+}
+
+a:focus{/*for those who tabe the link it got focused*/
+	background: #b3b3b3;
+	color:#0006cc;
+}
+a:active{/*when you click it make border around link just like button*/
+	border:3px solid #000000;
+}
